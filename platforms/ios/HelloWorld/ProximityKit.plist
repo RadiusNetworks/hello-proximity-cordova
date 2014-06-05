@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<!--
+	Download this file to 'ProximityKit.plist' in your project folder, then drag it into Xcode to configure the library.
+-->
+<dict>
+	<key>PKKitName</key>
+	<string>StalkMyWife</string>
+	<key>PKUserIdentifier</key>
+	<string>667</string>
+	<key>PKUserEmail</key>
+	<string>mharper@standalonecode.com</string>
+	<key>PKGlobalUserIdentifier</key>
+	<string>1007</string>
+	<key>PKAPIToken</key>
+	<string>fc7a01b47070da5190759359df87914a03ca813d187688bb4c8971c5d6d54d34</string>
+	<key>PKKitURL</key>
+	<string>http://proximitykit.com/api/kits/1128</string>
+	<key>PKMapURL</key>
+	<string>http://proximitykit.com/api/maps/384</string>
+	<key>PKMapName</key>
+	<string>Sunriver</string>
+</dict>
+</plist>
