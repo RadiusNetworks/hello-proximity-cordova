@@ -1,5 +1,5 @@
 # PhoneGap
-plugins
+plugins/
 
 # Android
 
@@ -21,6 +21,9 @@ Android/assets/
 # generated files
 bin/
 gen/
+
+# IntelliJ files
+.idea/
 
 # Local configuration file (sdk path, etc)
 local.properties
