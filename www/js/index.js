@@ -36,12 +36,10 @@ var app = {
 
     // deviceready Event Handler
     onDeviceReady: function() {
-      console.log("onDeviceReady");
-        app.handleDeviceReady();
+      app.handleDeviceReady();
     },
 
     handleDeviceReady: function() {
-        console.log("handleDeviceReady");
         beaconLogElement = document.getElementById('beacon-log');
         watchId = cordova.plugins.proximitykit.watchProximity(function(message){
             console.log("Success: Response from plugin is " + message);

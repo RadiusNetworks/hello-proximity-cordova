@@ -40,8 +40,8 @@
 		7E7966E71810823500FA85AD /* icon-small@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7E7966DD1810823500FA85AD /* icon-small@2x.png */; };
 		D4A0D8761607E02300AEF8BB /* Default-568h@2x~iphone.png in Resources */ = {isa = PBXBuildFile; fileRef = D4A0D8751607E02300AEF8BB /* Default-568h@2x~iphone.png */; };
 		D8356459194113B2003B9588 /* CDVLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 827203FF52C94151837570E5 /* CDVLogger.m */; };
-		D835645D19411814003B9588 /* PKCDVPlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F207DF211194F3BB115A4F7 /* PKCDVPlugin.m */; };
-		D835645E19411819003B9588 /* ProximityKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3CE4FD123FF47B49285F937 /* ProximityKit.framework */; };
+		D835646219413457003B9588 /* PKCDVPlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F207DF211194F3BB115A4F7 /* PKCDVPlugin.m */; };
+		D83564631941345E003B9588 /* ProximityKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3CE4FD123FF47B49285F937 /* ProximityKit.framework */; };
 		D8A98284193E8D6F00456C79 /* ProximityKit.plist in Resources */ = {isa = PBXBuildFile; fileRef = D8A98283193E8D6F00456C79 /* ProximityKit.plist */; };
 /* End PBXBuildFile section */
 
@@ -107,7 +107,6 @@
 		827203FF52C94151837570E5 /* CDVLogger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CDVLogger.m; path = org.apache.cordova.console/CDVLogger.m; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* HelloWorld-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "HelloWorld-Info.plist"; path = "../HelloWorld-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
 		8F207DF211194F3BB115A4F7 /* PKCDVPlugin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PKCDVPlugin.m; path = com.radiusnetworks.cordova.proximity/PKCDVPlugin.m; sourceTree = "<group>"; };
-		926014A313C84F4AB33E1E92 /* CDVNotification.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CDVNotification.h; path = org.apache.cordova.dialogs/CDVNotification.h; sourceTree = "<group>"; };
 		D4A0D8751607E02300AEF8BB /* Default-568h@2x~iphone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x~iphone.png"; sourceTree = "<group>"; };
 		D8A98283193E8D6F00456C79 /* ProximityKit.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = ProximityKit.plist; sourceTree = "<group>"; };
 		E8E3BB6F7E44405197ECE38F /* CDVNotification.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = CDVNotification.bundle; sourceTree = "<group>"; };
@@ -116,7 +115,6 @@
 		EB87FDF41871DAF40020F90C /* config.xml */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = config.xml; path = ../../config.xml; sourceTree = "<group>"; };
 		F3CE4FD123FF47B49285F937 /* ProximityKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ProximityKit.framework; path = HelloWorld/Plugins/com.radiusnetworks.cordova.proximity/ProximityKit.framework; sourceTree = "<group>"; };
 		F840E1F0165FE0F500CFE078 /* config.xml */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = config.xml; path = HelloWorld/config.xml; sourceTree = "<group>"; };
-		FF3AF394AE364986B6085457 /* CDVNotification.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CDVNotification.m; path = org.apache.cordova.dialogs/CDVNotification.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -125,7 +123,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5B1594DD16A7569C00FEF299 /* AssetsLibrary.framework in Frameworks */,
-				D835645E19411819003B9588 /* ProximityKit.framework in Frameworks */,
+				D83564631941345E003B9588 /* ProximityKit.framework in Frameworks */,
 				301BF552109A68D80062928A /* libCordova.a in Frameworks */,
 				288765FD0DF74451002DB57D /* CoreGraphics.framework in Frameworks */,
 				305D5FD1115AB8F900A74A75 /* MobileCoreServices.framework in Frameworks */,
@@ -242,8 +240,6 @@
 		307C750510C5A3420062BCA9 /* Plugins */ = {
 			isa = PBXGroup;
 			children = (
-				FF3AF394AE364986B6085457 /* CDVNotification.m */,
-				926014A313C84F4AB33E1E92 /* CDVNotification.h */,
 				827203FF52C94151837570E5 /* CDVLogger.m */,
 				805B279F13E64257B6A57DAA /* CDVLogger.h */,
 				8F207DF211194F3BB115A4F7 /* PKCDVPlugin.m */,
@@ -442,7 +438,7 @@
 			files = (
 				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
 				D8356459194113B2003B9588 /* CDVLogger.m in Sources */,
-				D835645D19411814003B9588 /* PKCDVPlugin.m in Sources */,
+				D835646219413457003B9588 /* PKCDVPlugin.m in Sources */,
 				1D3623260D0F684500981E51 /* AppDelegate.m in Sources */,
 				302D95F114D2391D003F00A1 /* MainViewController.m in Sources */,
 			);
