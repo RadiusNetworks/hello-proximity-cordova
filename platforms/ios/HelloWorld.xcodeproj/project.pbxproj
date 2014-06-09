@@ -41,8 +41,8 @@
 		D4A0D8761607E02300AEF8BB /* Default-568h@2x~iphone.png in Resources */ = {isa = PBXBuildFile; fileRef = D4A0D8751607E02300AEF8BB /* Default-568h@2x~iphone.png */; };
 		D8356459194113B2003B9588 /* CDVLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 827203FF52C94151837570E5 /* CDVLogger.m */; };
 		D8A98284193E8D6F00456C79 /* ProximityKit.plist in Resources */ = {isa = PBXBuildFile; fileRef = D8A98283193E8D6F00456C79 /* ProximityKit.plist */; };
-		D8EA434D1946773C008FD9E3 /* PKCDVPlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F207DF211194F3BB115A4F7 /* PKCDVPlugin.m */; };
-		D8EA434E19467742008FD9E3 /* ProximityKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3CE4FD123FF47B49285F937 /* ProximityKit.framework */; };
+		D8EA435419467FAB008FD9E3 /* PKCDVPlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F207DF211194F3BB115A4F7 /* PKCDVPlugin.m */; };
+		D8EA435519467FB2008FD9E3 /* ProximityKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3CE4FD123FF47B49285F937 /* ProximityKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -123,7 +123,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5B1594DD16A7569C00FEF299 /* AssetsLibrary.framework in Frameworks */,
-				D8EA434E19467742008FD9E3 /* ProximityKit.framework in Frameworks */,
+				D8EA435519467FB2008FD9E3 /* ProximityKit.framework in Frameworks */,
 				301BF552109A68D80062928A /* libCordova.a in Frameworks */,
 				288765FD0DF74451002DB57D /* CoreGraphics.framework in Frameworks */,
 				305D5FD1115AB8F900A74A75 /* MobileCoreServices.framework in Frameworks */,
@@ -438,7 +438,7 @@
 			files = (
 				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
 				D8356459194113B2003B9588 /* CDVLogger.m in Sources */,
-				D8EA434D1946773C008FD9E3 /* PKCDVPlugin.m in Sources */,
+				D8EA435419467FAB008FD9E3 /* PKCDVPlugin.m in Sources */,
 				1D3623260D0F684500981E51 /* AppDelegate.m in Sources */,
 				302D95F114D2391D003F00A1 /* MainViewController.m in Sources */,
 			);

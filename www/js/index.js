@@ -18,7 +18,7 @@
  */
 var beaconLogElement;
 
-var logPKEvent = function(pkEvent) {
+var logPKEvent = function(pkEvent, displayMessage) {
   logString = new Date().toString() + " ProximityKit event: " + pkEvent[cordova.plugins.proximitykit.constants.keys.eventType];
   region = pkEvent[cordova.plugins.proximitykit.constants.keys.region];
   if (region != null)
@@ -31,6 +31,11 @@ var logPKEvent = function(pkEvent) {
     logString += " Beacons: " + JSON.stringify(beacons);
   }
   console.log(logString);
+  
+  if (displayMessage)
+  {
+    beaconLogElement.innerHTML = beaconLogElement.innerHTML + '<p>' + logString + '</p>';
+  }
 }
 
 var proximityKitSuccessHandler = function(message) {
@@ -40,8 +45,12 @@ var proximityKitSuccessHandler = function(message) {
     case cordova.plugins.proximitykit.constants.eventTypes.sync:
     case cordova.plugins.proximitykit.constants.eventTypes.enteredRegion:
     case cordova.plugins.proximitykit.constants.eventTypes.exitedRegion:
-    case cordova.plugins.proximitykit.constants.eventTypes.rangedBeacons:
-      logPKEvent(message);
+    case cordova.plugins.proximitykit.constants.eventTypes.determinedRegionState:
+      logPKEvent(message, true);
+      break;
+      
+   case cordova.plugins.proximitykit.constants.eventTypes.rangedBeacons:
+      logPKEvent(message, false);
       break;
       
     default:
