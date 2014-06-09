@@ -16,11 +16,41 @@
  * specific language governing permissions and limitations
  * under the License.
  */
+var beaconLogElement;
+
+var logPKEvent = function(pkEvent) {
+  logString = new Date().toString() + " ProximityKit event: " + pkEvent[cordova.plugins.proximitykit.constants.keys.eventType];
+  region = pkEvent[cordova.plugins.proximitykit.constants.keys.region];
+  if (region != null)
+  {
+    logString += " Region: " + JSON.stringify(region);
+  }
+  beacons = pkEvent[cordova.plugins.proximitykit.constants.keys.beacons];
+  if (beacons != null)
+  {
+    logString += " Beacons: " + JSON.stringify(beacons);
+  }
+  console.log(logString);
+}
+
+var proximityKitSuccessHandler = function(message) {
+  pkEventType = message[cordova.plugins.proximitykit.constants.keys.eventType];
+
+  switch (pkEventType) {
+    case cordova.plugins.proximitykit.constants.eventTypes.sync:
+    case cordova.plugins.proximitykit.constants.eventTypes.enteredRegion:
+    case cordova.plugins.proximitykit.constants.eventTypes.exitedRegion:
+    case cordova.plugins.proximitykit.constants.eventTypes.rangedBeacons:
+      logPKEvent(message);
+      break;
+      
+    default:
+      console.log("Unexpected ProximityKit event type " + pkEventType);
+      break;
+  }
+};
+
 var app = {
-    pkHandler: {
-
-    },
-
     // Application Constructor
     initialize: function() {
         this.bindEvents();
@@ -41,9 +71,7 @@ var app = {
 
     handleDeviceReady: function() {
         beaconLogElement = document.getElementById('beacon-log');
-        watchId = cordova.plugins.proximitykit.watchProximity(function(message){
-            console.log("Success: Response from plugin is " + message);
-        },
+        watchId = cordova.plugins.proximitykit.watchProximity(proximityKitSuccessHandler,
         function(message){
             console.log("Failure: Response from plugin is " + message);
         });
