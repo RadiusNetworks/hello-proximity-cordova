@@ -4,7 +4,7 @@ module.exports = [
         "file": "plugins/com.radiusnetworks.cordova.proximity/www/proximitykit.js",
         "id": "com.radiusnetworks.cordova.proximity.proximitykit",
         "clobbers": [
-            "cordova.plugins.proximitykit"
+            "radiusnetworks.plugins.proximitykit"
         ]
     }
 ];

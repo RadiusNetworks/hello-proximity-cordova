@@ -17,10 +17,14 @@ plugins/
 Android/bin/
 Android/gen/
 Android/assets/
+platforms/android/ant-build
 
 # generated files
 bin/
 gen/
+ant-gen/
+ant-build/
+out/
 
 # IntelliJ files
 .idea/

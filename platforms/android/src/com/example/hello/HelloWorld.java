@@ -22,6 +22,8 @@ package com.example.hello;
 import android.os.Bundle;
 import org.apache.cordova.*;
 
+// Try using AAR from here: http://s3.amazonaws.com/android-ibeacon-library.radiusnetworks.com/AndroidProximityLibrary-1.1.4-7-g8b68223.aar
+
 public class HelloWorld extends CordovaActivity 
 {
     @Override

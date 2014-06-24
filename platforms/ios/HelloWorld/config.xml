@@ -22,6 +22,9 @@
     <feature name="Console">
         <param name="ios-package" value="CDVLogger" />
     </feature>
+    <feature name="ProximityKit">
+        <param name="ios-package" value="PKCDVPlugin" />
+    </feature>
     <name>HelloWorld</name>
     <description>
         A sample Apache Cordova application that works with ProximityKit.
@@ -31,7 +34,4 @@
     </author>
     <content src="index.html" />
     <access origin="*" />
-    <feature name="ProximityKit">
-        <param name="ios-package" value="PKCDVPlugin" />
-    </feature>
 </widget>
