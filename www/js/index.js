@@ -17,15 +17,16 @@
  * under the License.
  */
 var beaconLogElement;
+var beaconRangeLogElement;
 
 var logPKEvent = function(pkEvent, displayMessage) {
-  logString = new Date().toString() + " ProximityKit event: " + pkEvent[cordova.plugins.proximitykit.constants.keys.eventType];
-  region = pkEvent[cordova.plugins.proximitykit.constants.keys.region];
+  logString = new Date().toString() + " ProximityKit event: " + pkEvent[radiusnetworks.plugins.proximitykit.constants.keys.eventType];
+  region = pkEvent[radiusnetworks.plugins.proximitykit.constants.keys.region];
   if (region != null)
   {
     logString += " Region: " + JSON.stringify(region);
   }
-  beacons = pkEvent[cordova.plugins.proximitykit.constants.keys.beacons];
+  beacons = pkEvent[radiusnetworks.plugins.proximitykit.constants.keys.beacons];
   if (beacons != null)
   {
     logString += " Beacons: " + JSON.stringify(beacons);
@@ -38,19 +39,31 @@ var logPKEvent = function(pkEvent, displayMessage) {
   }
 }
 
+var logPKRangeEvent = function(pkEvent) {
+  logString = new Date().toString();
+  beacon = pkEvent[radiusnetworks.plugins.proximitykit.constants.keys.beacon];
+  if (beacon != null)
+  {
+    logString += " Beacon: " + JSON.stringify(beacon);
+  }
+  
+  console.log(logString);
+  beaconRangeLogElement.innerHTML = '<p>' + logString + '</p>';
+}
+
 var proximityKitSuccessHandler = function(message) {
-  pkEventType = message[cordova.plugins.proximitykit.constants.keys.eventType];
+  pkEventType = message[radiusnetworks.plugins.proximitykit.constants.keys.eventType];
 
   switch (pkEventType) {
-    case cordova.plugins.proximitykit.constants.eventTypes.sync:
-    case cordova.plugins.proximitykit.constants.eventTypes.enteredRegion:
-    case cordova.plugins.proximitykit.constants.eventTypes.exitedRegion:
-    case cordova.plugins.proximitykit.constants.eventTypes.determinedRegionState:
+    case radiusnetworks.plugins.proximitykit.constants.eventTypes.sync:
+    case radiusnetworks.plugins.proximitykit.constants.eventTypes.enteredRegion:
+    case radiusnetworks.plugins.proximitykit.constants.eventTypes.exitedRegion:
+    case radiusnetworks.plugins.proximitykit.constants.eventTypes.determinedRegionState:
       logPKEvent(message, true);
       break;
       
-   case cordova.plugins.proximitykit.constants.eventTypes.rangedBeacons:
-      logPKEvent(message, false);
+   case radiusnetworks.plugins.proximitykit.constants.eventTypes.rangedBeacon:
+      logPKRangeEvent(message, false);
       break;
       
     default:
@@ -80,7 +93,8 @@ var app = {
 
     handleDeviceReady: function() {
         beaconLogElement = document.getElementById('beacon-log');
-        watchId = cordova.plugins.proximitykit.watchProximity(proximityKitSuccessHandler,
+        beaconRangeLogElement = document.getElementById('beacon-range-log');
+        watchId = radiusnetworks.plugins.proximitykit.watchProximity(proximityKitSuccessHandler,
         function(message){
             console.log("Failure: Response from plugin is " + message);
         });

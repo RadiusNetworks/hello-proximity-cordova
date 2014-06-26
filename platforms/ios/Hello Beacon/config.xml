@@ -1,0 +1,42 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="com.radiusnetworks.cordova.hello" version="0.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <preference name="AllowInlineMediaPlayback" value="false" />
+    <preference name="AutoHideSplashScreen" value="true" />
+    <preference name="BackupWebStorage" value="cloud" />
+    <preference name="DisallowOverscroll" value="false" />
+    <preference name="EnableViewportScale" value="false" />
+    <preference name="FadeSplashScreen" value="true" />
+    <preference name="FadeSplashScreenDuration" value=".25" />
+    <preference name="KeyboardDisplayRequiresUserAction" value="true" />
+    <preference name="MediaPlaybackRequiresUserAction" value="false" />
+    <preference name="ShowSplashScreenSpinner" value="true" />
+    <preference name="SuppressesIncrementalRendering" value="false" />
+    <preference name="TopActivityIndicator" value="gray" />
+    <preference name="GapBetweenPages" value="0" />
+    <preference name="PageLength" value="0" />
+    <preference name="PaginationBreakingMode" value="page" />
+    <preference name="PaginationMode" value="unpaginated" />
+    <feature name="LocalStorage">
+        <param name="ios-package" value="CDVLocalStorage" />
+    </feature>
+    <feature name="ProximityKit">
+        <param name="ios-package" value="PKCDVPlugin" />
+    </feature>
+    <feature name="Console">
+        <param name="ios-package" value="CDVLogger" />
+    </feature>
+    <icon height="60" src="res/icon/ios/icon-60.png" width="60" />
+    <icon height="120" src="res/icon/ios/icon-60-2x.png" width="120" />
+    <icon height="76" src="res/icon/ios/icon-76.png" width="76" />
+    <icon height="152" src="res/icon/ios/icon-76-2x.png" width="152" />
+    <name>Hello Beacon</name>
+    <description>
+        A sample Apache Cordova application that works with Radius Networks ProximityKit.
+    </description>
+    <author email="michael@radiusnetworks.com">
+        Radius Networks PhoneGap developer
+    </author>
+    <content src="index.html" />
+    <access origin="*" />
+    <preference name="BackupWebStorage" value="none" />
+</widget>

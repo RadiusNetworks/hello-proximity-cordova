@@ -4,14 +4,14 @@ module.exports = [
         "file": "plugins/com.radiusnetworks.cordova.proximity/www/proximitykit.js",
         "id": "com.radiusnetworks.cordova.proximity.proximitykit",
         "clobbers": [
-            "cordova.plugins.proximitykit"
+            "radiusnetworks.plugins.proximitykit"
         ]
     }
 ];
 module.exports.metadata = 
 // TOP OF METADATA
 {
-    "org.apache.cordova.console": "0.2.8",
+    "org.apache.cordova.console": "0.2.9",
     "com.radiusnetworks.cordova.proximity": "0.5"
 }
 // BOTTOM OF METADATA

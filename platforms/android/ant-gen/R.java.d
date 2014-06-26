@@ -1,4 +1,4 @@
-/Users/mharper/Customers/Radius/Development/PhoneGap/hello-proximity-cordova/platforms/android/ant-gen/com/example/hello/R.java \
+/Users/mharper/Customers/Radius/Development/PhoneGap/hello-proximity-cordova/platforms/android/ant-gen/com/radiusnetworks/cordova/hello/R.java \
  : /Users/mharper/Customers/Radius/Development/PhoneGap/hello-proximity-cordova/platforms/android/res/drawable/icon.png \
 /Users/mharper/Customers/Radius/Development/PhoneGap/hello-proximity-cordova/platforms/android/res/drawable-hdpi/icon.png \
 /Users/mharper/Customers/Radius/Development/PhoneGap/hello-proximity-cordova/platforms/android/res/drawable-land-hdpi/screen.png \
