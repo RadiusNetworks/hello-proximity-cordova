@@ -1,20 +1,25 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget id="com.example.hello" version="0.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+<widget id="com.radiusnetworks.cordova.hello" version="0.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
     <preference name="loglevel" value="DEBUG" />
     <preference name="AndroidLaunchMode" value="singleTop" />
     <feature name="App">
         <param name="android-package" value="org.apache.cordova.App" />
     </feature>
-    <feature name="ProximityKit">
-        <param name="android-package" value="com.radiusnetworks.cordova.proximity.ProximityKitPlugin" />
-    </feature>
-    <name>HelloWorld</name>
+    <icon density="ldpi" src="res/icon/android/icon-36-ldpi.png" />
+    <icon density="mdpi" src="res/icon/android/icon-48-mdpi.png" />
+    <icon density="hdpi" src="res/icon/android/icon-72-hdpi.png" />
+    <icon density="xhdpi" src="res/icon/android/icon-96-xhdpi.png" />
+    <icon density="xxhdpi" src="res/icon/android/icon-144-xhdpi.png" />
+    <name>Hello Beacon</name>
     <description>
-        A sample Apache Cordova application that works with ProximityKit.
+        A sample Apache Cordova application that works with Radius Networks ProximityKit.
     </description>
-    <author email="dev@example.com">
-        Example PhoneGap developer
+    <author email="michael@radiusnetworks.com">
+        Radius Networks PhoneGap developer
     </author>
     <content src="index.html" />
     <access origin="*" />
+    <feature name="ProximityKit">
+        <param name="android-package" value="com.radiusnetworks.cordova.proximity.ProximityKitPlugin" />
+    </feature>
 </widget>

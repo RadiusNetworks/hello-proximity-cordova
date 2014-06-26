@@ -17,7 +17,7 @@ plugins/
 Android/bin/
 Android/gen/
 Android/assets/
-platforms/android/ant-build
+android/ant-build
 
 # generated files
 bin/
@@ -49,3 +49,10 @@ profile
 
 # Thumbnails
 ._*
+
+# Graphics that aren't stored in the app structure.
+graphics/
+
+# Keep kit-specific files out of the repo.
+ProximityKit.plist
+ProximityKit.properties

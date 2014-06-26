@@ -11,7 +11,7 @@ module.exports = [
 module.exports.metadata = 
 // TOP OF METADATA
 {
-    "org.apache.cordova.console": "0.2.8",
+    "org.apache.cordova.console": "0.2.9",
     "com.radiusnetworks.cordova.proximity": "0.5"
 }
 // BOTTOM OF METADATA

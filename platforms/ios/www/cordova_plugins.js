@@ -1,6 +1,13 @@
 cordova.define('cordova/plugin_list', function(require, exports, module) {
 module.exports = [
     {
+        "file": "plugins/com.radiusnetworks.cordova.proximity/www/proximitykit.js",
+        "id": "com.radiusnetworks.cordova.proximity.proximitykit",
+        "clobbers": [
+            "radiusnetworks.plugins.proximitykit"
+        ]
+    },
+    {
         "file": "plugins/org.apache.cordova.console/www/console-via-logger.js",
         "id": "org.apache.cordova.console.console",
         "clobbers": [
@@ -13,20 +20,13 @@ module.exports = [
         "clobbers": [
             "cordova.logger"
         ]
-    },
-    {
-        "file": "plugins/com.radiusnetworks.cordova.proximity/www/proximitykit.js",
-        "id": "com.radiusnetworks.cordova.proximity.proximitykit",
-        "clobbers": [
-            "radiusnetworks.plugins.proximitykit"
-        ]
     }
 ];
 module.exports.metadata = 
 // TOP OF METADATA
 {
-    "org.apache.cordova.console": "0.2.8",
-    "com.radiusnetworks.cordova.proximity": "0.5"
+    "com.radiusnetworks.cordova.proximity": "0.5",
+    "org.apache.cordova.console": "0.2.9"
 }
 // BOTTOM OF METADATA
 });

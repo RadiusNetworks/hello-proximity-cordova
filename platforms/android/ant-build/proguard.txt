@@ -1,5 +1,5 @@
 # view AndroidManifest.xml #generated:4
--keep class com.example.hello.HelloWorld { <init>(...); }
+-keep class com.radiusnetworks.cordova.hello.HelloWorld { <init>(...); }
 
 # view AndroidManifest.xml #generated:18
 -keep class com.radiusnetworks.ibeacon.IBeaconIntentProcessor { <init>(...); }

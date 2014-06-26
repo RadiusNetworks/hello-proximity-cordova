@@ -6,6 +6,13 @@
 /Users/mharper/Customers/Radius/Development/PhoneGap/hello-proximity-cordova/platforms/android/ant-build/classes/com/example/hello/R$string.class \
 /Users/mharper/Customers/Radius/Development/PhoneGap/hello-proximity-cordova/platforms/android/ant-build/classes/com/example/hello/R$xml.class \
 /Users/mharper/Customers/Radius/Development/PhoneGap/hello-proximity-cordova/platforms/android/ant-build/classes/com/example/hello/R.class \
+/Users/mharper/Customers/Radius/Development/PhoneGap/hello-proximity-cordova/platforms/android/ant-build/classes/com/radiusnetworks/cordova/hello/BuildConfig.class \
+/Users/mharper/Customers/Radius/Development/PhoneGap/hello-proximity-cordova/platforms/android/ant-build/classes/com/radiusnetworks/cordova/hello/HelloWorld.class \
+/Users/mharper/Customers/Radius/Development/PhoneGap/hello-proximity-cordova/platforms/android/ant-build/classes/com/radiusnetworks/cordova/hello/R$attr.class \
+/Users/mharper/Customers/Radius/Development/PhoneGap/hello-proximity-cordova/platforms/android/ant-build/classes/com/radiusnetworks/cordova/hello/R$drawable.class \
+/Users/mharper/Customers/Radius/Development/PhoneGap/hello-proximity-cordova/platforms/android/ant-build/classes/com/radiusnetworks/cordova/hello/R$string.class \
+/Users/mharper/Customers/Radius/Development/PhoneGap/hello-proximity-cordova/platforms/android/ant-build/classes/com/radiusnetworks/cordova/hello/R$xml.class \
+/Users/mharper/Customers/Radius/Development/PhoneGap/hello-proximity-cordova/platforms/android/ant-build/classes/com/radiusnetworks/cordova/hello/R.class \
 /Users/mharper/Customers/Radius/Development/PhoneGap/hello-proximity-cordova/platforms/android/ant-build/classes/com/radiusnetworks/cordova/proximity/ProximityKitPlugin.class \
 /Users/mharper/Customers/Radius/Development/PhoneGap/hello-proximity-cordova/platforms/android/ant-build/classes/com/standalonecode/hello/HelloWorld.class \
 /Users/mharper/Customers/Radius/Development/PhoneGap/hello-proximity-cordova/platforms/android/ant-build/dexedLibs/classes-769f7cd5dcb2847f3f2ecde302b47721.jar \
