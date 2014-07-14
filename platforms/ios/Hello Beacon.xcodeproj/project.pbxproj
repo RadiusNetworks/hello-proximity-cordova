@@ -5,7 +5,6 @@
 	};
 	objectVersion = 46;
 	objects = {
-
 /* Begin PBXBuildFile section */
 		1D3623260D0F684500981E51 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* AppDelegate.m */; };
 		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
@@ -26,8 +25,6 @@
 		308D05391370CCF300D202BF /* icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 308D05301370CCF300D202BF /* icon@2x.png */; };
 		30A0434814DC770100060A13 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 30A0434314DC770100060A13 /* Localizable.strings */; };
 		30FC414916E50CA1004E6F35 /* icon-72@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 30FC414816E50CA1004E6F35 /* icon-72@2x.png */; };
-		37FD14F5AE46480B80B62652 /* ProximityKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF4FBA81A6B14D28954C666A /* ProximityKit.framework */; };
-		47B541FA7E064CE08C67E320 /* CDVLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 132FF9427B4643C6BC5E2C86 /* CDVLogger.m */; };
 		5AEE5B35173C68D80009041E /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AEE5B34173C68D80009041E /* CoreLocation.framework */; };
 		5B1594DD16A7569C00FEF299 /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B1594DC16A7569C00FEF299 /* AssetsLibrary.framework */; };
 		7E7966DE1810823500FA85AD /* icon-40.png in Resources */ = {isa = PBXBuildFile; fileRef = 7E7966D41810823500FA85AD /* icon-40.png */; };
@@ -40,9 +37,10 @@
 		7E7966E51810823500FA85AD /* icon-76@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7E7966DB1810823500FA85AD /* icon-76@2x.png */; };
 		7E7966E61810823500FA85AD /* icon-small.png in Resources */ = {isa = PBXBuildFile; fileRef = 7E7966DC1810823500FA85AD /* icon-small.png */; };
 		7E7966E71810823500FA85AD /* icon-small@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7E7966DD1810823500FA85AD /* icon-small@2x.png */; };
-		B035C88A36A74257BAAEA3D0 /* PKCDVPlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E3347E4611B4B1EA4BDC5F7 /* PKCDVPlugin.m */; };
 		D4A0D8761607E02300AEF8BB /* Default-568h@2x~iphone.png in Resources */ = {isa = PBXBuildFile; fileRef = D4A0D8751607E02300AEF8BB /* Default-568h@2x~iphone.png */; };
-		D8CF96B2195B9CB700B2B139 /* ProximityKit.plist in Resources */ = {isa = PBXBuildFile; fileRef = D8CF96B1195B9CB700B2B139 /* ProximityKit.plist */; };
+		243C435BF637495FAE713FF5 /* CDVLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 8600F94A1A084DE3A7F69398 /* CDVLogger.m */; };
+		9BEB96F5D36F470ABAF0EE12 /* PKCDVPlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = 961531DD27B14C2B985F39D4 /* PKCDVPlugin.m */; };
+		168FEB394DE24F43A518FAB2 /* ProximityKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E150B0C03BCE4E29B9C64889 /* ProximityKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,8 +61,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0B080DC5BDC847AC9AA7D6CB /* PKCDVPlugin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PKCDVPlugin.h; path = com.radiusnetworks.cordova.proximity/PKCDVPlugin.h; sourceTree = "<group>"; };
-		132FF9427B4643C6BC5E2C86 /* CDVLogger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CDVLogger.m; path = org.apache.cordova.console/CDVLogger.m; sourceTree = "<group>"; };
 		1D3623240D0F684500981E51 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		1D3623250D0F684500981E51 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		1D6058910D05DD3D006BFB54 /* Hello Beacon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Hello Beacon.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -72,7 +68,7 @@
 		1F766FE013BBADB100FB74C0 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = Localizable.strings; sourceTree = "<group>"; };
 		288765FC0DF74451002DB57D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		301BF52D109A57CC0062928A /* CordovaLib.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = CordovaLib.xcodeproj; path = CordovaLib/CordovaLib.xcodeproj; sourceTree = "<group>"; };
+		301BF52D109A57CC0062928A /* CordovaLib.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = CordovaLib.xcodeproj; path = "CordovaLib/CordovaLib.xcodeproj"; sourceTree = "<group>"; };
 		301BF56E109A69640062928A /* www */ = {isa = PBXFileReference; lastKnownFileType = folder; path = www; sourceTree = SOURCE_ROOT; };
 		302D95EE14D2391D003F00A1 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
 		302D95EF14D2391D003F00A1 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
@@ -91,7 +87,6 @@
 		30A0434714DC770100060A13 /* se */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = se; path = Localizable.strings; sourceTree = "<group>"; };
 		30FC414816E50CA1004E6F35 /* icon-72@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-72@2x.png"; sourceTree = "<group>"; };
 		32CA4F630368D1EE00C91783 /* Hello Beacon-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Hello Beacon-Prefix.pch"; sourceTree = "<group>"; };
-		3E3347E4611B4B1EA4BDC5F7 /* PKCDVPlugin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PKCDVPlugin.m; path = com.radiusnetworks.cordova.proximity/PKCDVPlugin.m; sourceTree = "<group>"; };
 		5AEE5B34173C68D80009041E /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 		5B1594DC16A7569C00FEF299 /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
 		7E7966D41810823500FA85AD /* icon-40.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-40.png"; sourceTree = "<group>"; };
@@ -105,14 +100,16 @@
 		7E7966DC1810823500FA85AD /* icon-small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-small.png"; sourceTree = "<group>"; };
 		7E7966DD1810823500FA85AD /* icon-small@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-small@2x.png"; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* Hello Beacon-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "Hello Beacon-Info.plist"; path = "../Hello Beacon-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
-		A6B61F74660046619D912D08 /* CDVLogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CDVLogger.h; path = org.apache.cordova.console/CDVLogger.h; sourceTree = "<group>"; };
 		D4A0D8751607E02300AEF8BB /* Default-568h@2x~iphone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x~iphone.png"; sourceTree = "<group>"; };
-		D8CF96B1195B9CB700B2B139 /* ProximityKit.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = ProximityKit.plist; sourceTree = "<group>"; };
 		EB87FDF21871DA7A0020F90C /* merges */ = {isa = PBXFileReference; lastKnownFileType = folder; name = merges; path = ../../merges; sourceTree = "<group>"; };
 		EB87FDF31871DA8E0020F90C /* www */ = {isa = PBXFileReference; lastKnownFileType = folder; name = www; path = ../../www; sourceTree = "<group>"; };
 		EB87FDF41871DAF40020F90C /* config.xml */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = config.xml; path = ../../config.xml; sourceTree = "<group>"; };
-		EF4FBA81A6B14D28954C666A /* ProximityKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ProximityKit.framework; path = "Hello Beacon/Plugins/com.radiusnetworks.cordova.proximity/ProximityKit.framework"; sourceTree = "<group>"; };
 		F840E1F0165FE0F500CFE078 /* config.xml */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = config.xml; path = "Hello Beacon/config.xml"; sourceTree = "<group>"; };
+		8600F94A1A084DE3A7F69398 /* CDVLogger.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "CDVLogger.m"; path = "org.apache.cordova.console/CDVLogger.m"; sourceTree = "<group>"; fileEncoding = 4; };
+		DDED14D881624CC9A8B1910F /* CDVLogger.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "CDVLogger.h"; path = "org.apache.cordova.console/CDVLogger.h"; sourceTree = "<group>"; fileEncoding = 4; };
+		961531DD27B14C2B985F39D4 /* PKCDVPlugin.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "PKCDVPlugin.m"; path = "com.radiusnetworks.cordova.proximitykit/PKCDVPlugin.m"; sourceTree = "<group>"; fileEncoding = 4; };
+		62F310BDD6CE4FBD95BFC446 /* PKCDVPlugin.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "PKCDVPlugin.h"; path = "com.radiusnetworks.cordova.proximitykit/PKCDVPlugin.h"; sourceTree = "<group>"; fileEncoding = 4; };
+		E150B0C03BCE4E29B9C64889 /* ProximityKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "ProximityKit.framework"; path = "Hello Beacon/Plugins/com.radiusnetworks.cordova.proximitykit/ProximityKit.framework"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -125,7 +122,7 @@
 				288765FD0DF74451002DB57D /* CoreGraphics.framework in Frameworks */,
 				305D5FD1115AB8F900A74A75 /* MobileCoreServices.framework in Frameworks */,
 				5AEE5B35173C68D80009041E /* CoreLocation.framework in Frameworks */,
-				37FD14F5AE46480B80B62652 /* ProximityKit.framework in Frameworks */,
+				168FEB394DE24F43A518FAB2 /* ProximityKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -207,7 +204,6 @@
 				308D052D1370CCF300D202BF /* icons */,
 				308D05311370CCF300D202BF /* splash */,
 				8D1107310486CEB800E47090 /* Hello Beacon-Info.plist */,
-				D8CF96B1195B9CB700B2B139 /* ProximityKit.plist */,
 			);
 			name = Resources;
 			path = "Hello Beacon/Resources";
@@ -220,7 +216,7 @@
 				5B1594DC16A7569C00FEF299 /* AssetsLibrary.framework */,
 				288765FC0DF74451002DB57D /* CoreGraphics.framework */,
 				305D5FD0115AB8F900A74A75 /* MobileCoreServices.framework */,
-				EF4FBA81A6B14D28954C666A /* ProximityKit.framework */,
+				E150B0C03BCE4E29B9C64889 /* ProximityKit.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -236,10 +232,10 @@
 		307C750510C5A3420062BCA9 /* Plugins */ = {
 			isa = PBXGroup;
 			children = (
-				3E3347E4611B4B1EA4BDC5F7 /* PKCDVPlugin.m */,
-				0B080DC5BDC847AC9AA7D6CB /* PKCDVPlugin.h */,
-				132FF9427B4643C6BC5E2C86 /* CDVLogger.m */,
-				A6B61F74660046619D912D08 /* CDVLogger.h */,
+				8600F94A1A084DE3A7F69398 /* CDVLogger.m */,
+				DDED14D881624CC9A8B1910F /* CDVLogger.h */,
+				961531DD27B14C2B985F39D4 /* PKCDVPlugin.m */,
+				62F310BDD6CE4FBD95BFC446 /* PKCDVPlugin.h */,
 			);
 			name = Plugins;
 			path = "Hello Beacon/Plugins";
@@ -335,7 +331,7 @@
 			attributes = {
 				LastUpgradeCheck = 510;
 			};
-			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "Hello Beacon" */;
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "__CLI__" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 1;
@@ -389,7 +385,6 @@
 				7E7966E01810823500FA85AD /* icon-50.png in Resources */,
 				7E7966E31810823500FA85AD /* icon-60@2x.png in Resources */,
 				30A0434814DC770100060A13 /* Localizable.strings in Resources */,
-				D8CF96B2195B9CB700B2B139 /* ProximityKit.plist in Resources */,
 				7E7966E61810823500FA85AD /* icon-small.png in Resources */,
 				3088BBBD154F3926009F9C59 /* Default-Landscape@2x~ipad.png in Resources */,
 				3088BBBE154F3926009F9C59 /* Default-Landscape~ipad.png in Resources */,
@@ -435,8 +430,8 @@
 				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
 				1D3623260D0F684500981E51 /* AppDelegate.m in Sources */,
 				302D95F114D2391D003F00A1 /* MainViewController.m in Sources */,
-				B035C88A36A74257BAAEA3D0 /* PKCDVPlugin.m in Sources */,
-				47B541FA7E064CE08C67E320 /* CDVLogger.m in Sources */,
+				243C435BF637495FAE713FF5 /* CDVLogger.m in Sources */,
+				9BEB96F5D36F470ABAF0EE12 /* PKCDVPlugin.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -492,10 +487,6 @@
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ENABLE_OBJC_ARC = YES;
 				COPY_PHASE_STRIP = NO;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"\"Hello Beacon/Plugins/com.radiusnetworks.cordova.proximity\"",
-				);
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -520,6 +511,10 @@
 				);
 				PRODUCT_NAME = "Hello Beacon";
 				TARGETED_DEVICE_FAMILY = "1,2";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"Hello Beacon/Plugins/com.radiusnetworks.cordova.proximitykit\"",
+				);
 			};
 			name = Debug;
 		};
@@ -529,10 +524,6 @@
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ENABLE_OBJC_ARC = YES;
 				COPY_PHASE_STRIP = YES;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"\"Hello Beacon/Plugins/com.radiusnetworks.cordova.proximity\"",
-				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Hello Beacon/Hello Beacon-Prefix.pch";
 				GCC_THUMB_SUPPORT = NO;
@@ -555,6 +546,10 @@
 				);
 				PRODUCT_NAME = "Hello Beacon";
 				TARGETED_DEVICE_FAMILY = "1,2";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"Hello Beacon/Plugins/com.radiusnetworks.cordova.proximitykit\"",
+				);
 			};
 			name = Release;
 		};
@@ -661,7 +656,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "Hello Beacon" */ = {
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "__CLI__" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C01FCF4F08A954540054247B /* Debug */,
