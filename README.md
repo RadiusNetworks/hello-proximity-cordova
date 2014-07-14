@@ -36,6 +36,14 @@ The app needs to be running on a Bluetooth LE-enabled device in order to be able
 
 ### iOS
 
+To build, install, and run the app on your iOS device, execute the following command in the project directory:
+
+```
+$ cordova run --device ios
+```
+
+Note that it is _extremely slow_ to get started for some reason.  Running the app directly from the device is much quicker once the app is installed.
+
 ### Android
 
 To build, install, and run the app on your Android device, execute the following command in the project directory:

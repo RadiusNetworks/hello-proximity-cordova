@@ -19,12 +19,6 @@
     <feature name="LocalStorage">
         <param name="ios-package" value="CDVLocalStorage" />
     </feature>
-    <feature name="ProximityKit">
-        <param name="ios-package" value="PKCDVPlugin" />
-    </feature>
-    <feature name="Console">
-        <param name="ios-package" value="CDVLogger" />
-    </feature>
     <icon height="60" src="res/icon/ios/icon-60.png" width="60" />
     <icon height="120" src="res/icon/ios/icon-60-2x.png" width="120" />
     <icon height="76" src="res/icon/ios/icon-76.png" width="76" />
@@ -39,4 +33,10 @@
     <content src="index.html" />
     <access origin="*" />
     <preference name="BackupWebStorage" value="none" />
+    <feature name="Console">
+        <param name="ios-package" value="CDVLogger" />
+    </feature>
+    <feature name="ProximityKit">
+        <param name="ios-package" value="PKCDVPlugin" />
+    </feature>
 </widget>
