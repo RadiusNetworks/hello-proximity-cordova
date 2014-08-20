@@ -19,7 +19,8 @@
     </author>
     <content src="index.html" />
     <access origin="*" />
+    <preference name="BackupWebStorage" value="none" />
     <feature name="ProximityKit">
-        <param name="android-package" value="com.radiusnetworks.cordova.proximity.ProximityKitPlugin" />
+        <param name="android-package" value="com.radiusnetworks.cordova.proximitykit.ProximityKitPlugin" />
     </feature>
 </widget>

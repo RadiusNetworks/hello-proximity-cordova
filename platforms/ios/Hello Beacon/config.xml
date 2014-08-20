@@ -20,7 +20,7 @@
         <param name="ios-package" value="CDVLocalStorage" />
     </feature>
     <feature name="ProximityKit">
-        <param name="ios-package" value="PKCDVPlugin" />
+        <param name="ios-package" value="RPKCDVPlugin" />
     </feature>
     <feature name="Console">
         <param name="ios-package" value="CDVLogger" />
