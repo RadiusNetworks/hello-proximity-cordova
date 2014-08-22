@@ -149,4 +149,10 @@
     [[NSURLCache sharedURLCache] removeAllCachedResponses];
 }
 
+- (void)applicationWillTerminate:(UIApplication *)application
+{
+    NSLog(@"applicationWillTerminate Called");
+    
+}
+
 @end
