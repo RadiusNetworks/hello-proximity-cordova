@@ -1,9 +1,0 @@
-2014-08-22 16:31:03.691 Hello Beacon[63813:70b] Multi-tasking -> Device: YES, App: YES
-2014-08-22 16:31:03.734 Hello Beacon[63813:70b] Unlimited access to network resources
-2014-08-22 16:31:04.044 Hello Beacon[63813:70b] Resetting plugins due to page load.
-2014-08-22 16:31:04.135 Hello Beacon[63813:70b] Finished load of: file:///Users/James/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/3384A583-072E-405F-A669-AE845F6E93B3/Hello%20Beacon.app/www/index.html
-2014-08-22 16:31:04.429 Hello Beacon[63813:5d03] didSync
-2014-08-22 16:31:04.430 Hello Beacon[63813:70b] ProximityKit[Error] Ranging Beacons Failed with Error: Error Domain=kCLErrorDomain Code=17 "The operation couldn’t be completed. (kCLErrorDomain error 17.)"
-2014-08-22 16:31:04.430 Hello Beacon[63813:70b] ProximityKit[Error] Ranging Beacons Failed with Error: Error Domain=kCLErrorDomain Code=17 "The operation couldn’t be completed. (kCLErrorDomain error 17.)"
-2014-08-22 16:31:04.430 Hello Beacon[63813:70b] ProximityKit[Error] Ranging Beacons Failed with Error: Error Domain=kCLErrorDomain Code=17 "The operation couldn’t be completed. (kCLErrorDomain error 17.)"
-2014-08-22 16:31:04.432 Hello Beacon[63813:70b] Fri Aug 22 2014 16:31:04 GMT-0400 (EDT) ProximityKit event: didSync
