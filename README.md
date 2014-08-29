@@ -11,7 +11,9 @@ This project contains everything you need to build a running version of the "Hel
 
 *You must install your own `ProximityKit.properties` file!*
 
-Otherwise the app will not recognize any of your beacons.
+Otherwise the app will not recognize any of your beacons.  Make sure you have
+at least one of your beacons powered up before you run the sample app, or it
+won't be very interesting!
 
 ### Installing your own ProximityKit configuration files
 
