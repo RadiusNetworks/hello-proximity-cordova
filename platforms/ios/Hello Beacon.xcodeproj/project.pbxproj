@@ -5,7 +5,6 @@
 	};
 	objectVersion = 46;
 	objects = {
-
 /* Begin PBXBuildFile section */
 		1A0506EE19AF7ECC00440B72 /* ProximityKit.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1A0506ED19AF7ECC00440B72 /* ProximityKit.plist */; };
 		1A0506F019AF7EE800440B72 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A0506EF19AF7EE800440B72 /* libsqlite3.dylib */; };
@@ -42,8 +41,6 @@
 		7E7966E71810823500FA85AD /* icon-small@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7E7966DD1810823500FA85AD /* icon-small@2x.png */; };
 		878904B0DDEC45E797849F9C /* CDVLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = C9ED0003370B4DA8AD239052 /* CDVLogger.m */; };
 		D4A0D8761607E02300AEF8BB /* Default-568h@2x~iphone.png in Resources */ = {isa = PBXBuildFile; fileRef = D4A0D8751607E02300AEF8BB /* Default-568h@2x~iphone.png */; };
-		F035EC9FB1E34D42A30C5B72 /* ProximityKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF8CA91BD4044B99A96AA086 /* ProximityKit.framework */; };
-		FD4D985909734A6F87E53074 /* RPKCDVPlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B598E92959147609F713DE6 /* RPKCDVPlugin.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -128,7 +125,6 @@
 				288765FD0DF74451002DB57D /* CoreGraphics.framework in Frameworks */,
 				305D5FD1115AB8F900A74A75 /* MobileCoreServices.framework in Frameworks */,
 				5AEE5B35173C68D80009041E /* CoreLocation.framework in Frameworks */,
-				F035EC9FB1E34D42A30C5B72 /* ProximityKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -439,7 +435,6 @@
 				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
 				1D3623260D0F684500981E51 /* AppDelegate.m in Sources */,
 				302D95F114D2391D003F00A1 /* MainViewController.m in Sources */,
-				FD4D985909734A6F87E53074 /* RPKCDVPlugin.m in Sources */,
 				878904B0DDEC45E797849F9C /* CDVLogger.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

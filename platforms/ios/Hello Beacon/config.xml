@@ -33,10 +33,10 @@
     <content src="index.html" />
     <access origin="*" />
     <preference name="BackupWebStorage" value="none" />
-    <feature name="ProximityKit">
-        <param name="ios-package" value="RPKCDVPlugin" />
-    </feature>
     <feature name="Console">
         <param name="ios-package" value="CDVLogger" />
+    </feature>
+    <feature name="ProximityKit">
+        <param name="ios-package" value="RPKCDVPlugin" />
     </feature>
 </widget>

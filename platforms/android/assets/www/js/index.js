@@ -170,7 +170,6 @@ var proximityKitSuccessHandler = function(message) {
     case radiusnetworks.plugins.proximitykit.constants.eventTypes.enteredRegion:
     case radiusnetworks.plugins.proximitykit.constants.eventTypes.exitedRegion:
     case radiusnetworks.plugins.proximitykit.constants.eventTypes.determinedRegionState:
-    case radiusnetworks.plugins.proximitykit.constants.eventTypes.rangedBeacon:
       logPKEvent(message, true);
       break;
       

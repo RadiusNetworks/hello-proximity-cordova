@@ -1,0 +1,71 @@
+Node version: v0.10.30
+
+Cordova version: 0.21.6
+
+Config.xml file: 
+
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="com.radiusnetworks.cordova.hello" version="0.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <name>Hello Beacon</name>
+    <description>
+        A sample Apache Cordova application that works with Radius Networks ProximityKit.
+    </description>
+    <author email="michael@radiusnetworks.com">
+        Radius Networks PhoneGap developer
+    </author>
+    <content src="index.html" />
+    <access origin="*" />
+    <preference name="BackupWebStorage" value="none"/>
+    <platform name="android">
+        <icon src="res/icon/android/icon-36-ldpi.png"   density="ldpi" />
+        <icon src="res/icon/android/icon-48-mdpi.png"   density="mdpi" />
+        <icon src="res/icon/android/icon-72-hdpi.png"   density="hdpi" />
+        <icon src="res/icon/android/icon-96-xhdpi.png"  density="xhdpi" />
+        <icon src="res/icon/android/icon-144-xhdpi.png" density="xxhdpi" />
+    </platform>
+    <platform name="ios">
+        <icon src="res/icon/ios/icon-60.png" width="60" height="60" />
+        <icon src="res/icon/ios/icon-60-2x.png" width="120" height="120" />
+        <icon src="res/icon/ios/icon-76.png" width="76" height="76" />
+        <icon src="res/icon/ios/icon-76-2x.png" width="152" height="152" />
+    </platform>
+</widget>
+
+
+Plugins: 
+
+com.radiusnetworks.cordova.proximitykit,org.apache.cordova.console
+
+Android platform:
+
+Available Android targets:
+----------
+id: 1 or "android-19"
+     Name: Android 4.4.2
+     Type: Platform
+     API level: 19
+     Revision: 3
+     Skins: HVGA, QVGA, WQVGA400, WQVGA432, WSVGA, WVGA800 (default), WVGA854, WXGA720, WXGA800, WXGA800-7in
+ Tag/ABIs : default/armeabi-v7a
+----------
+id: 2 or "android-20"
+     Name: Android 4.4W
+     Type: Platform
+     API level: 20
+     Revision: 1
+     Skins: HVGA, QVGA, WQVGA400, WQVGA432, WSVGA, WVGA800 (default), WVGA854, WXGA720, WXGA800, WXGA800-7in
+ Tag/ABIs : no ABIs.
+----------
+id: 3 or "android-L"
+     Name: Android L (Preview)
+     Type: Platform
+     API level: L
+     Revision: 3
+     Skins: HVGA, QVGA, WQVGA400, WQVGA432, WSVGA, WVGA800 (default), WVGA854, WXGA720, WXGA800, WXGA800-7in
+ Tag/ABIs : android-tv/armeabi-v7a, android-tv/x86
+
+iOS platform:
+
+Xcode 5.1.1
+Build version 5B1008
+

@@ -1,12 +1,12 @@
-# view AndroidManifest.xml #generated:4
--keep class com.radiusnetworks.cordova.hello.HelloWorld { <init>(...); }
+# view AndroidManifest.xml #generated:5
+-keep class com.radiusnetworks.cordova.hello.HelloBeacon { <init>(...); }
+
+# view AndroidManifest.xml #generated:19
+-keep class org.altbeacon.beacon.BeaconIntentProcessor { <init>(...); }
 
 # view AndroidManifest.xml #generated:18
--keep class com.radiusnetworks.ibeacon.IBeaconIntentProcessor { <init>(...); }
+-keep class org.altbeacon.beacon.service.BeaconService { <init>(...); }
 
-# view AndroidManifest.xml #generated:17
--keep class com.radiusnetworks.ibeacon.service.IBeaconService { <init>(...); }
-
-# view AndroidManifest.xml #generated:10
--keep class com.radiusnetworks.proximity.ibeacon.startup.StartupBroadcastReceiver { <init>(...); }
+# view AndroidManifest.xml #generated:11
+-keep class org.altbeacon.beacon.startup.StartupBroadcastReceiver { <init>(...); }
 
