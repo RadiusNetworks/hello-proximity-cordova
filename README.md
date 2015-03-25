@@ -7,9 +7,9 @@ This Cordova app demonstrates how you can use the Radius Networks ProximityKit C
 
 Setup
 -----
-This project contains everything you need to build a running version of the "Hello Beacon" Cordova app on iOS with one exception:
+This project contains everything you need to build a running version of the "Hello Beacon" Cordova app on iOS and Android with one exception:
 
-*You must install your own `ProximityKit.properties` file!*
+*You must install your own `ProximityKit.plist` and `ProximityKit.properties` files!*
 
 Otherwise the app will not recognize any of your beacons.  Make sure you have
 at least one of your beacons powered up before you run the sample app, or it
